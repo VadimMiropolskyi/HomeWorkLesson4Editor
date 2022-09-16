@@ -1,0 +1,258 @@
+body {
+    margin: 0%;
+    padding: 0%;
+}
+
+div {
+    position: absolute;
+}
+
+#Hut {
+    z-index: 1;
+    width: 460px;
+    height: 825px;
+}
+
+#main-content {
+    z-index: 2;
+    left: 460px;
+    width: 1302px;
+    height: 825px;
+}
+
+
+.Hut {
+    padding-top: 10px;
+    padding-left: 1px;
+    width: 307px;
+    height: 164px;
+
+}
+
+#main-content {
+    border-width: 0px;
+    border-style: solid;
+    border-color: black;
+    width: 1302px;
+    height: 831px;
+    display: inline-block;
+}
+
+#Hut2 {
+    background-image: url(./img/RoshenLogo2.png);
+    background-repeat: no-repeat;
+    background-position-x: 67px;
+    background-position-y: center;
+    margin-left: 1px;
+    margin-top: 1px;
+    padding: 10px;
+    background-color: #8C0A0D;
+    height: 52px;
+
+}
+
+.header-menu {
+    font-family: Minion Pro Bold;
+    font-weight: bold;
+    padding-inline-start: 370px;
+    margin-top: 0px;
+}
+
+.header-menu-text {
+    display: inline-block;
+    font-size: 14px;
+    color: #E4BB7A;
+    padding: 16px;
+    list-style-type: none;
+    margin-top: 0px;
+}
+
+.header-menu-Ln {
+    top: 24px;
+    font-family: Minion Pro Bold;
+    font-size: 18px;
+    color: #E4BB7A;
+    list-style-image: url(./img/English.png);
+    list-style-position: inside;
+    padding-inline-start: 1107px;
+    position: absolute;
+}
+
+#Footer {
+    z-index: 3;
+    margin-left: 1px;
+    height: 72px;
+    background-color: rgba(140, 10, 13, 1);
+}
+
+.footer-menu {
+    padding-left: 23px;
+    padding-right: 56px;
+    margin-left: 56px;
+    display: inline-block;
+    font-weight: bold;
+    font-size: 14px;
+    color: #FBC37A;
+}
+
+
+
+
+.Flogo {
+    z-index: 4;
+    position: absolute;
+    margin-top: 20px;
+    left: 1164px;
+    width: 28px;
+    height: 28px;
+}
+
+.VKlogo {
+    z-index: 4;
+    position: absolute;
+    margin-top: 20px;
+    left: 1205px;
+    width: 28px;
+    height: 28px;
+}
+
+section {
+    z-index: 3;
+    height: 679px;
+    margin-left: 1px;
+    background-image: url(./img/BackPhoto.png);
+}
+
+#section {
+    background-color: rgba(255, 255, 255, 0.8);
+    width: 1301px;
+    height: 679px;
+}
+
+.photo {
+    z-index: 3;
+    position: absolute;
+    top: 98px;
+    left: 65px;
+    width: 1170px;
+    height: 335px;
+}
+
+.button1 {
+    z-index: 5;
+    position: absolute;
+    top: 203px;
+    left: 557px;
+    width: 191px;
+    height: 44px;
+}
+
+.button2 {
+    z-index: 4;
+    position: absolute;
+    top: 208px;
+    left: 557px;
+    width: 191px;
+    height: 44px;
+}
+
+.buttonLeft {
+    z-index: 4;
+    position: absolute;
+    top: 255px;
+    left: 93px;
+    width: 55px;
+    height: 55px;
+}
+
+.buttonRight {
+    z-index: 4;
+    position: absolute;
+    top: 255px;
+    left: 1152px;
+    width: 55px;
+    height: 55px;
+}
+
+.circle1 {
+    z-index: 4;
+    background-color: rgba(255, 255, 255, 1);
+    top: 405px;
+    left: 619px;
+    width: 18px;
+    height: 18px;
+    border-radius: 18px;
+}
+
+.circle2 {
+    z-index: 4;
+    background-color: rgba(191, 103, 13, 1);
+    top: 405px;
+    left: 642px;
+    width: 18px;
+    height: 18px;
+    border-radius: 18px;
+}
+
+.circle3 {
+    z-index: 4;
+    background-color: rgba(255, 255, 255, 1);
+    top: 405px;
+    left: 666px;
+    width: 18px;
+    height: 18px;
+    border-radius: 18px;
+}
+
+.name2 {
+    margin: 0px;
+    z-index: 6;
+    position: absolute;
+    font-size: 60px;
+    top: 106px;
+    left: 372px;
+    font-family: OpenSans-Regular;
+}
+
+.linkbutton {
+    margin: 0px;
+    z-index: 6;
+    position: absolute;
+    font-size: 24px;
+    top: 208px;
+    left: 580px;
+    font-family: Minion Pro Bold;
+    font-weight: bold;
+}
+
+#infotext {
+    width: 1170px;
+    left: 66px;
+    top: 65px;
+}
+
+.TextContainer > div {
+    position: sticky;
+    display: inline-block;
+    margin-top: 380px;
+    background: none;
+    float: left;
+    width: 22%;
+    margin-left: 4%;
+}
+
+.TextContainer > div:first-of-type {
+    margin-left: 0%;
+}
+.TextContainer h4 {
+    font-family: Minion Pro Bold;  
+    font-size: 18px;
+    height: 107px;
+}
+
+.TextContainer p {
+    font-family: MinionPro-Regular;
+    font-size: 16px;
+    text-align: left;
+}
+
