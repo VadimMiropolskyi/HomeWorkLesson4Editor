@@ -1,0 +1,262 @@
+    html {
+        --font-Merriweather Sans sans-serif: 'Merriweather Sans', sans-serif;
+        --font-Open Sans sans-serif: 'Open Sans', sans-serif;
+    }
+    
+    body {
+        margin: 0px;
+    }
+
+    #firstlogo {
+       float: left;
+       display: inline-block;
+
+}      
+    
+    
+    #page {
+        background-color: #EBEBEB;
+        width: 1300px;
+        height: 831px;
+        z-index: 2;
+        margin-left: 60px;
+        float: left;
+        display: inline-block;
+    }
+
+    #header {
+        background-color: #8C0A0D;
+        height: 72px;
+    }
+
+    .logo {
+    float: left;
+    margin-left: 68px;
+    margin-top: 16px;
+    }
+
+    .category {
+    float: left;
+    margin-left: 125px;
+    margin-top: 31px;
+    }
+
+    .language {
+    float: right;
+    margin-right: 66px;
+    margin-top: 31px;
+    }
+
+    .en {
+        float: right;
+        display: inline-block;
+        margin-left: 5px;
+        color: #F9BD6F;
+        font-size: 18px;
+    }
+    a {
+        display: inline-block;
+        text-decoration: none;
+        color: #F9BD6F;
+        font-size: 14px;
+        margin-left: 32px;
+    }
+
+    a:first-child {
+        margin-left: 0px;
+    }
+
+    #content {
+        width: 100%;
+        height: 687px;
+        background-image: url(./img/BackPhoto.png);
+        z-index: 3;
+    }
+
+    .fon {
+        width: 100%;
+        height: 687px;
+        z-index: 4;
+        background-image: url(./img/Fonfoto.png);
+        position: relative;
+    }
+
+    #carusel {
+        width: 1168px;
+        height: 337px;
+        z-index: 5;
+        background-image: url(./img/RoshenPhoto.png);
+        margin-left: 67px;
+        margin-top: 28px;
+        position: absolute;
+    }
+
+    .caruselname {
+        font-family: var(--font-Open);
+        text-align: center;
+        font-size: 60px;
+        margin-top: 30px;
+    }
+
+    .buttonfirst {
+        position: absolute;
+        top: 112px;
+        left: 490px;
+    }
+
+    .buttontwo {
+        position: absolute;
+        top: 107px;
+        left: 490px;
+    }
+
+    .centered {
+        position: absolute;
+        top: 45%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 24px;
+        font-weight: bold;
+        white-space: nowrap;
+    }
+
+    .buttonleft {
+        float: left;
+        position: absolute;
+        top: 155px;
+        left: 28px;
+    }
+
+    .buttonright {
+        float: right;
+        position: absolute;
+        top: 155px;
+        right: 28px;
+    }
+
+    .circle1 {
+        position: absolute;
+        bottom: 8px;
+        left: 555px;
+    }
+
+    .circle2 {
+        position: absolute;
+        bottom: 8px;
+        left: 577px;
+    }
+
+    .circle3 {
+        position: absolute;
+        bottom: 8px;
+        left: 601px;
+    }
+
+    #texts {
+        width: 1168px;
+        margin-left: 67px;
+        position: absolute;
+        bottom: 30px;
+    }
+
+    .text1 {
+        float: left;
+        text-align: justify;
+        width: 269px;
+        margin: 0px;
+    }
+
+    .text2 {
+        float: left;
+        text-align: justify;
+        width: 269px;
+        margin-left: 30px;
+    }
+
+    .text3 {
+        float: left;
+        text-align: justify;
+        width: 269px;
+        margin-left: 30px;
+    }
+
+    .text4 {
+        float: left;
+        text-align: justify;
+        width: 269px;
+        margin-left: 30px;
+    }
+
+    h1 {
+        font-size: 18px;
+        font-family: var(--font-Merriweather);
+    }
+
+    p {
+        font-size: 16px;
+        font-family: var(--font-Merriweather);
+    }
+
+    a {
+        font-family: var(--font-Merriweather);
+    }
+
+    .p1 {
+       margin-top: 51px;
+    }
+
+    .p2 {
+        margin-top: 31px;
+    }
+
+    .p3 {
+        margin-top: 5px;
+    }
+
+    .p4 {
+        margin-top: 51px;
+    }
+   
+    #footer {
+        background-color: #8C0A0D;
+        height: 72px;
+    }
+
+    .http {
+        margin-left: 67px;
+        margin-top: 27px;
+        color: #F9BD6F;
+        font-size: 14px;
+        float: left;
+    }
+
+    .adress {
+        margin-left: 116px;
+        margin-top: 13px;
+        color: #F9BD6F;
+        font-size: 14px;
+        float: left;
+    }
+
+    .tel {
+        margin-left: 659px;
+        margin-top: -31px;
+        color: #F9BD6F;
+        font-size: 14px;
+        float: left; 
+        text-align: right;
+    }
+
+    .email {
+        margin-left: 968px;
+        margin-top: -18px;
+        color: #F9BD6F;
+        font-size: 14px;
+        float: left;
+    }
+
+    .media {
+        float: right;
+        margin-right:  66px;
+        margin-top: -23px;
+    }
