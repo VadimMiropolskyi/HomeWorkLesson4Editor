@@ -181,48 +181,11 @@
     font-family: var(--font-Merriweather);
    }
 
-    p {
-        font-size: 16px;
-        font-family: var(--font-Merriweather);
-    }
-
     h1 {
         font-size: 18px;
         font-family: var(--font-Merriweather);
     }
 
- 
-/*
-    h1 {
-        font-size: 18px;
-        font-family: var(--font-Merriweather);
-    }
-
-    p {
-        font-size: 16px;
-        font-family: var(--font-Merriweather);
-    }
-
-    a {
-        font-family: var(--font-Merriweather);
-    }
-
-    .p1 {
-       margin-top: 51px;
-    }
-
-    .p2 {
-        margin-top: 31px;
-    }
-
-    .p3 {
-        margin-top: 5px;
-    }
-
-    .p4 {
-        margin-top: 51px;
-    }
-    */
    
     #footer {
         background-color: #8C0A0D;
