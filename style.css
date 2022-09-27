@@ -87,15 +87,15 @@
         z-index: 5;
         background-image: url(./img/RoshenPhoto.png);
         margin-left: 67px;
-        margin-top: 28px;
-        position: absolute;
+        top: 28px;
+        position: relative;
     }
 
     .caruselname {
         font-family: var(--font-Open);
         text-align: center;
         font-size: 60px;
-        margin-top: 30px;
+        
     }
 
     .buttonfirst {
@@ -155,38 +155,44 @@
     #texts {
         width: 1168px;
         margin-left: 67px;
-        position: absolute;
-        bottom: 30px;
+        margin-top: 50px;
     }
 
-    .text1 {
-        float: left;
-        text-align: justify;
+    #texts >div{
+        display: inline-block;
         width: 269px;
-        margin: 0px;
-    }
-
-    .text2 {
-        float: left;
         text-align: justify;
-        width: 269px;
-        margin-left: 30px;
+        font-size: 18px;
+        font-family: var(--font-Merriweather);
+        vertical-align: text-top;
+        height: 271px;
     }
 
-    .text3 {
-        float: left;
-        text-align: justify;
-        width: 269px;
-        margin-left: 30px;
+    div[class^="text"] {
+        margin-right: 26px;
     }
 
-    .text4 {
-        float: left;
-        text-align: justify;
-        width: 269px;
-        margin-left: 30px;
+    div[class$="4"] {
+    margin-right: 0px;
     }
 
+   .colump {
+    font-size: 16px;
+    font-family: var(--font-Merriweather);
+   }
+
+    p {
+        font-size: 16px;
+        font-family: var(--font-Merriweather);
+    }
+
+    h1 {
+        font-size: 18px;
+        font-family: var(--font-Merriweather);
+    }
+
+ 
+/*
     h1 {
         font-size: 18px;
         font-family: var(--font-Merriweather);
@@ -216,6 +222,7 @@
     .p4 {
         margin-top: 51px;
     }
+    */
    
     #footer {
         background-color: #8C0A0D;
